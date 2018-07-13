@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MDStudy</string>
+    <string name="HeaderBehavior">com.goach.mdstudy.behavior.HeaderBehavior</string>
+    <string name="ContentBehavior">com.goach.mdstudy.behavior.ContentBehavior</string>
+    <string name="SearchBehavior">com.goach.mdstudy.behavior.SearchBehavior</string>
+</resources>
