@@ -5,19 +5,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <FrameLayout
+    <android.support.v4.widget.NestedScrollView
         app:layout_behavior="@string/HeaderBehavior"
         android:id="@+id/fl_head"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height"
         >
-        <ImageView
-            android:id="@+id/iv_head"
+        <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
-            android:src="@drawable/top"/>
-    </FrameLayout>
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_head"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height"
+                android:scaleType="fitXY"
+                android:src="@drawable/top"/>
+        </FrameLayout>
+    </android.support.v4.widget.NestedScrollView>
     <RelativeLayout
         android:id="@+id/rlToolBar"
         android:layout_width="match_parent"
